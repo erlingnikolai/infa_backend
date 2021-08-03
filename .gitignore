@@ -1,0 +1,9 @@
+# Project exclude paths
+/infa-config-client/target/
+/infa-config-server/target/
+/infa-gateway/target/
+/infa-model/target/
+/infa-service/infa-service-mail/target/
+/infa-start/target/
+/infa-webservices/target/
+/.idea/
