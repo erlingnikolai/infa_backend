@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: Infa_Gateway
+  cloud:
+    gateway:
+      routes:
+        - id: client
+          uri: 'http://localhost:9001'
+          predicates:
+            - Path=/mail/**
